@@ -1,5 +1,4 @@
-import * as rainSDK from "@unegma/rain-sdk";
-// import * as rainSDK from "rain-sdk";
+import * as rainSDK from "rain-sdk";
 import { ethers, BigNumber } from "ethers";
 
 export async function gatedNFTExample() {
