@@ -37,7 +37,7 @@ export async function gatedNFTExample() {
     // Prompt user for account connections
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner();
-    const address = await signer.getAddress();
+    const address = await signer.getAddress(); // your wallet address
     console.log(`Signer:`, signer);
     console.log(`Address: ${address}`);
 
